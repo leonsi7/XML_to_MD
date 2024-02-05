@@ -1,0 +1,1338 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc>
+    <constantsCategories>
+        <category id="Math constants"/>
+    </constantsCategories>
+    <conceptList>
+        <concept id="action"/>
+        <concept id="agent_location"/>
+        <concept id="agent_movement"/>
+        <concept id="algorithm"/>
+        <concept id="architecture"/>
+        <concept id="arithmetic"/>
+        <concept id="asc"/>
+        <concept id="attribute"/>
+        <concept id="autosave"/>
+        <concept id="background"/>
+        <concept id="batch"/>
+        <concept id="bdi"/>
+        <concept id="behavior"/>
+        <concept id="camera"/>
+        <concept id="cast"/>
+        <concept id="chart"/>
+        <concept id="clustering"/>
+        <concept id="color"/>
+        <concept id="comodel"/>
+        <concept id="comparison"/>
+        <concept id="communication"/>
+        <concept id="condition"/>
+        <concept id="constant"/>
+        <concept id="container"/>
+        <concept id="csv"/>
+        <concept id="cycle"/>
+        <concept id="date"/>
+        <concept id="database"/>
+        <concept id="dem"/>
+        <concept id="dgs"/>
+        <concept id="diffusion"/>
+        <concept id="dimension"/>
+        <concept id="display"/>
+        <concept id="distribution"/>
+        <concept id="dxf"/>
+        <concept id="edge"/>
+        <concept id="elevation"/>
+        <concept id="enumeration"/>
+        <concept id="equation"/>
+        <concept id="experiment"/>
+        <concept id="facet"/>
+        <concept id="file"/>
+        <concept id="filter"/>
+        <concept id="fipa"/>
+        <concept id="fsm"/>
+        <concept id="geometry"/>
+        <concept id="gis"/>
+        <concept id="global"/>
+        <concept id="graph"/>
+        <concept id="graph_weight"/>
+        <concept id="gml"/>
+        <concept id="grid"/>
+        <concept id="graphic"/>
+        <concept id="graphic_unit"/>
+        <concept id="gui"/>
+        <concept id="halt"/>
+        <concept id="headless"/>
+        <concept id="hydrology"/>
+        <concept id="image"/>
+        <concept id="import"/>
+        <concept id="inheritance"/>
+        <concept id="init"/>
+        <concept id="inspector"/>
+        <concept id="layer"/>
+        <concept id="length_unit"/>
+        <concept id="light"/>
+        <concept id="list"/>
+        <concept id="load_file"/>
+        <concept id="logical"/>
+        <concept id="loop"/>
+        <concept id="matrix"/>
+        <concept id="math"/>
+        <concept id="map"/>
+        <concept id="mirror"/>
+        <concept id="model"/>
+        <concept id="monitor"/>
+        <concept id="multi_level"/>
+        <concept id="multi_criteria"/>
+        <concept id="multi_simulation"/>
+        <concept id="neighbors"/>
+        <concept id="network"/>
+        <concept id="nil"/>
+        <concept id="node"/>
+        <concept id="obj"/>
+        <concept id="obstacle"/>
+        <concept id="opengl"/>
+        <concept id="operator"/>
+        <concept id="optimization"/>
+        <concept id="osm"/>
+        <concept id="output"/>
+        <concept id="overlay"/>
+        <concept id="parameter"/>
+        <concept id="pause"/>
+        <concept id="permanent"/>
+        <concept id="physics_engine"/>
+        <concept id="point"/>
+        <concept id="probability"/>
+        <concept id="pseudo_variable"/>
+        <concept id="r"/>
+        <concept id="random"/>
+        <concept id="random_operator"/>
+        <concept id="raster"/>
+        <concept id="regression"/>
+        <concept id="reflex"/>
+        <concept id="refresh"/>
+        <concept id="save_file"/>
+        <concept id="scheduler"/>
+        <concept id="serialize"/>
+        <concept id="shape"/>
+        <concept id="shapefile"/>
+        <concept id="shortest_path"/>
+        <concept id="skill"/>
+        <concept id="sound"/>
+        <concept id="spatial_computation"/>
+        <concept id="spatial_relation"/>
+        <concept id="spatial_transformation"/>
+        <concept id="species"/>
+        <concept id="sport"/>
+        <concept id="statistic"/>
+        <concept id="string"/>
+        <concept id="surface_unit"/>
+        <concept id="svg"/>
+        <concept id="system"/>
+        <concept id="task_based"/>
+        <concept id="ternary"/>
+        <concept id="text"/>
+        <concept id="texture"/>
+        <concept id="test"/>
+        <concept id="3d"/>
+        <concept id="tif"/>
+        <concept id="time"/>
+        <concept id="time_unit"/>
+        <concept id="topology"/>
+        <concept id="torus"/>
+        <concept id="transport"/>
+        <concept id="txt"/>
+        <concept id="type"/>
+        <concept id="update"/>
+        <concept id="volume_unit"/>
+        <concept id="weight_unit"/>
+        <concept id="write"/>
+        <concept id="xml"/>
+        <concept id="world"/>
+    </conceptList>
+    <constants>
+        <constant name="#DormandPrince54" value="DormandPrince54">
+            <categories>
+                <category id="Math constants"/>
+            </categories>
+            <documentation>
+                <result>DormandPrince54 solver</result>
+                <returns/>
+            </documentation>
+            <concepts>
+                <concept id="equation"/>
+                <concept id="constant"/>
+            </concepts>
+        </constant>
+        <constant name="#ThreeEighthes" value="ThreeEighthes">
+            <categories>
+                <category id="Math constants"/>
+            </categories>
+            <documentation>
+                <result>ThreeEighthes solver</result>
+                <returns/>
+            </documentation>
+            <concepts>
+                <concept id="equation"/>
+                <concept id="constant"/>
+            </concepts>
+        </constant>
+        <constant name="#Luther" value="Luther">
+            <categories>
+                <category id="Math constants"/>
+            </categories>
+            <documentation>
+                <result>Luther solver</result>
+                <returns/>
+            </documentation>
+            <concepts>
+                <concept id="equation"/>
+                <concept id="constant"/>
+            </concepts>
+        </constant>
+        <constant name="#AdamsBashforth" value="AdamsBashforth">
+            <categories>
+                <category id="Math constants"/>
+            </categories>
+            <documentation>
+                <result>AdamsBashforth solver</result>
+                <returns/>
+            </documentation>
+            <concepts>
+                <concept id="equation"/>
+                <concept id="constant"/>
+            </concepts>
+        </constant>
+        <constant name="#Euler" value="Euler">
+            <categories>
+                <category id="Math constants"/>
+            </categories>
+            <documentation>
+                <result>Euler solver</result>
+                <returns/>
+            </documentation>
+            <concepts>
+                <concept id="equation"/>
+                <concept id="constant"/>
+            </concepts>
+        </constant>
+        <constant name="#AdamsMoulton" value="AdamsMoulton">
+            <categories>
+                <category id="Math constants"/>
+            </categories>
+            <documentation>
+                <result>AdamsMoulton solver</result>
+                <returns/>
+            </documentation>
+            <concepts>
+                <concept id="equation"/>
+                <concept id="constant"/>
+            </concepts>
+        </constant>
+        <constant name="#GraggBulirschStoer" value="GraggBulirschStoer">
+            <categories>
+                <category id="Math constants"/>
+            </categories>
+            <documentation>
+                <result>GraggBulirschStoer solver</result>
+                <returns/>
+            </documentation>
+            <concepts>
+                <concept id="equation"/>
+                <concept id="constant"/>
+            </concepts>
+        </constant>
+        <constant name="#rk4" value="rk4">
+            <categories>
+                <category id="Math constants"/>
+            </categories>
+            <documentation>
+                <result>rk4 solver</result>
+                <returns/>
+            </documentation>
+            <concepts>
+                <concept id="equation"/>
+                <concept id="constant"/>
+            </concepts>
+        </constant>
+        <constant name="#dp853" value="dp853">
+            <categories>
+                <category id="Math constants"/>
+            </categories>
+            <documentation>
+                <result>dp853 solver</result>
+                <returns/>
+            </documentation>
+            <concepts>
+                <concept id="equation"/>
+                <concept id="constant"/>
+            </concepts>
+        </constant>
+        <constant name="#Gill" value="Gill">
+            <categories>
+                <category id="Math constants"/>
+            </categories>
+            <documentation>
+                <result>Gill solver</result>
+                <returns/>
+            </documentation>
+            <concepts>
+                <concept id="equation"/>
+                <concept id="constant"/>
+            </concepts>
+        </constant>
+        <constant name="#Midpoint" value="Midpoint">
+            <categories>
+                <category id="Math constants"/>
+            </categories>
+            <documentation>
+                <result>Midpoint solver</result>
+                <returns/>
+            </documentation>
+            <concepts>
+                <concept id="equation"/>
+                <concept id="constant"/>
+            </concepts>
+        </constant>
+        <constant name="#HighamHall54" value="HighamHall54">
+            <categories>
+                <category id="Math constants"/>
+            </categories>
+            <documentation>
+                <result>HighamHall54 solver</result>
+                <returns/>
+            </documentation>
+            <concepts>
+                <concept id="equation"/>
+                <concept id="constant"/>
+            </concepts>
+        </constant>
+    </constants>
+    <operatorsCategories>
+        <category id="Iterator operators"/>
+        <category id="Random operators"/>
+        <category id="EDP-related operators"/>
+        <category id="Matrix-related operators"/>
+        <category id="Containers-related operators"/>
+    </operatorsCategories>
+    <operators>
+        <operator alphabetOrder="dh" id="gamma_density" name="gamma_density">
+            <operatorCategories>
+                <category id="Random operators"/>
+            </operatorCategories>
+            <concepts>
+                <concept id="random"/>
+            </concepts>
+            <combinaisonIO>
+                <operands class="ummisco/gaml/extensions/maths/random/Random2.java" contentType="-13" returnType="float" type="-13">
+                    <operand name="x" position="0" type="float"/>
+                    <operand name="shape" position="1" type="float"/>
+                    <operand name="scale" position="2" type="float"/>
+                </operands>
+            </combinaisonIO>
+            <documentation>
+                <result>gamma_density(x,shape,scale) returns the probability density function (PDF) at the specified point x of the Gamma distribution with the given shape and scale.</result>
+                <returns/>
+                <seeAlso>
+                    <see id="binomial"/>
+                    <see id="gauss_rnd"/>
+                    <see id="lognormal_rnd"/>
+                    <see id="poisson"/>
+                    <see id="rnd"/>
+                    <see id="skew_gauss"/>
+                    <see id="truncated_gauss"/>
+                    <see id="weibull_rnd"/>
+                    <see id="weibull_density"/>
+                    <see id="lognormal_density"/>
+                </seeAlso>
+                <usagesExamples>
+                    <usage>
+                        <examples>
+                            <example code="gamma_density(1,9,0.5)" equals="0.731" isExecutable="true" isTestOnly="false" test="false" type="float"/>
+                        </examples>
+                    </usage>
+                </usagesExamples>
+            </documentation>
+        </operator>
+        <operator alphabetOrder="dh" id="diff2" name="diff2">
+            <operatorCategories>
+                <category id="EDP-related operators"/>
+            </operatorCategories>
+            <concepts>
+                <concept id="equation"/>
+                <concept id="math"/>
+            </concepts>
+            <combinaisonIO>
+                <operands class="ummisco/gaml/extensions/maths/ode/statements/SingleEquationStatement.java" contentType="-13" returnType="float" type="-13">
+                    <operand name="var" position="0" type="float"/>
+                    <operand name="time" position="1" type="float"/>
+                </operands>
+            </combinaisonIO>
+            <documentation>
+                <result>A placeholder function for expressing equations</result>
+                <returns/>
+            </documentation>
+        </operator>
+        <operator alphabetOrder="dh" id="gamma_rnd" name="gamma_rnd">
+            <operatorCategories>
+                <category id="Random operators"/>
+            </operatorCategories>
+            <concepts>
+                <concept id="random"/>
+            </concepts>
+            <combinaisonIO>
+                <operands class="ummisco/gaml/extensions/maths/random/Random2.java" contentType="-13" returnType="float" type="-13">
+                    <operand name="shape" position="0" type="float"/>
+                    <operand name="scale" position="1" type="float"/>
+                </operands>
+            </combinaisonIO>
+            <documentation>
+                <result>returns a random value from a gamma distribution with specified values of the shape and scale parameters</result>
+                <returns/>
+                <seeAlso>
+                    <see id="binomial"/>
+                    <see id="gauss_rnd"/>
+                    <see id="lognormal_rnd"/>
+                    <see id="poisson"/>
+                    <see id="rnd"/>
+                    <see id="skew_gauss"/>
+                    <see id="truncated_gauss"/>
+                    <see id="weibull_rnd"/>
+                    <see id="gamma_trunc_rnd"/>
+                </seeAlso>
+                <usagesExamples>
+                    <usage>
+                        <examples>
+                            <example code="gamma_rnd(9,0.5)" equals="0.731" isExecutable="true" isTestOnly="false" test="false" type="float"/>
+                        </examples>
+                    </usage>
+                </usagesExamples>
+            </documentation>
+        </operator>
+        <operator HAS_TESTS="true" alphabetOrder="aa" id="." name=".">
+            <operatorCategories>
+                <category id="Matrix-related operators"/>
+            </operatorCategories>
+            <concepts>
+                <concept id="matrix"/>
+            </concepts>
+            <combinaisonIO>
+                <operands class="ummisco/gaml/extensions/maths/matrix/MatrixOperators.java" contentType="-299" returnType="matrix" type="-13">
+                    <operand name="a" position="0" type="matrix"/>
+                    <operand name="b" position="1" type="matrix"/>
+                </operands>
+            </combinaisonIO>
+            <documentation>
+                <result/>
+                <returns/>
+                <usages>
+                    <usage descUsageElt="if both operands are matrix, returns the dot product of them">
+                        <examples>
+                            <example code="matrix([[1,1],[1,2]]) . matrix([[1,1],[1,2]])" equals="matrix([[2,3],[3,5]])" isExecutable="true" isTestOnly="false" test="true" type="matrix"/>
+                        </examples>
+                    </usage>
+                </usages>
+            </documentation>
+        </operator>
+        <operator HAS_TESTS="true" alphabetOrder="dh" id="eigenvalues" name="eigenvalues">
+            <operatorCategories>
+                <category id="Matrix-related operators"/>
+            </operatorCategories>
+            <concepts>
+                <concept id="matrix"/>
+            </concepts>
+            <combinaisonIO>
+                <operands class="ummisco/gaml/extensions/maths/matrix/MatrixOperators.java" contentType="2" returnType="list&lt;float&gt;" type="-13">
+                    <operand name="m" position="0" type="matrix"/>
+                </operands>
+            </combinaisonIO>
+            <documentation>
+                <result masterDoc="true">The list of the eigen values of the given matrix</result>
+                <returns masterDoc="true"/>
+                <usagesExamples>
+                    <usage>
+                        <examples>
+                            <example code="eigenvalues(matrix([[5,-3],[6,-4]]))" equals="[2.0000000000000004,-0.9999999999999998]" isExecutable="true" isTestOnly="false" test="true" type="list&lt;float&gt;"/>
+                        </examples>
+                    </usage>
+                </usagesExamples>
+            </documentation>
+        </operator>
+        <operator alphabetOrder="dh" alternativeNameOf="determinant" id="det" name="det">
+            <operatorsCategories>
+                <category id="Matrix-related operators"/>
+            </operatorsCategories>
+        </operator>
+        <operator HAS_TESTS="true" alphabetOrder="dh" id="determinant" name="determinant">
+            <operatorCategories>
+                <category id="Matrix-related operators"/>
+            </operatorCategories>
+            <concepts>
+                <concept id="matrix"/>
+            </concepts>
+            <combinaisonIO>
+                <operands class="ummisco/gaml/extensions/maths/matrix/MatrixOperators.java" contentType="-13" returnType="float" type="-13">
+                    <operand name="m" position="0" type="matrix"/>
+                </operands>
+            </combinaisonIO>
+            <documentation>
+                <result masterDoc="true">The determinant of the given matrix</result>
+                <returns masterDoc="true"/>
+                <usagesExamples>
+                    <usage>
+                        <examples>
+                            <example code="determinant(matrix([[1,2],[3,4]]))" equals="-2" isExecutable="true" isTestOnly="false" test="true" type="float"/>
+                        </examples>
+                    </usage>
+                </usagesExamples>
+            </documentation>
+        </operator>
+        <operator HAS_TESTS="true" alphabetOrder="im" id="inverse" name="inverse">
+            <operatorCategories>
+                <category id="Matrix-related operators"/>
+            </operatorCategories>
+            <concepts>
+                <concept id="matrix"/>
+            </concepts>
+            <combinaisonIO>
+                <operands class="ummisco/gaml/extensions/maths/matrix/MatrixOperators.java" contentType="2" returnType="matrix&lt;float&gt;" type="-13">
+                    <operand name="m" position="0" type="matrix"/>
+                </operands>
+            </combinaisonIO>
+            <documentation>
+                <result masterDoc="true">The inverse matrix of the given matrix. If no inverse exists, returns a matrix that has properties that resemble that of an inverse.</result>
+                <returns masterDoc="true"/>
+                <usagesExamples>
+                    <usage>
+                        <examples>
+                            <example code="inverse(matrix([[4,3],[3,2]]))" equals="matrix([[-2.0,3.0],[3.0,-4.0]])" isExecutable="true" isTestOnly="false" test="true" type="matrix&lt;float&gt;"/>
+                        </examples>
+                    </usage>
+                </usagesExamples>
+            </documentation>
+        </operator>
+        <operator HAS_TESTS="true" alphabetOrder="aa" id="append_vertically" name="append_vertically">
+            <operatorCategories>
+                <category id="Matrix-related operators"/>
+            </operatorCategories>
+            <concepts>
+                <concept id="matrix"/>
+            </concepts>
+            <combinaisonIO>
+                <operands class="ummisco/gaml/extensions/maths/matrix/MatrixOperators.java" contentType="-21" returnType="matrix" type="-13">
+                    <operand name="a" position="0" type="matrix"/>
+                    <operand name="b" position="1" type="matrix"/>
+                </operands>
+            </combinaisonIO>
+            <documentation>
+                <result>A matrix resulting from the concatenation of the columns  of the two given matrices. </result>
+                <returns/>
+                <usagesExamples>
+                    <usage>
+                        <examples>
+                            <example code="matrix([[1,2],[3,4]]) append_vertically matrix([[1,2],[3,4]])" equals="matrix([[1,2,1,2],[3,4,3,4]])" isExecutable="true" isTestOnly="false" test="true" type="matrix"/>
+                        </examples>
+                    </usage>
+                </usagesExamples>
+            </documentation>
+        </operator>
+        <operator alphabetOrder="sz" id="weibull_rnd" name="weibull_rnd">
+            <operatorCategories>
+                <category id="Random operators"/>
+            </operatorCategories>
+            <concepts>
+                <concept id="random"/>
+            </concepts>
+            <combinaisonIO>
+                <operands class="ummisco/gaml/extensions/maths/random/Random2.java" contentType="-13" returnType="float" type="-13">
+                    <operand name="shape" position="0" type="float"/>
+                    <operand name="scale" position="1" type="float"/>
+                </operands>
+            </combinaisonIO>
+            <documentation>
+                <result>returns a random value from a Weibull distribution with specified values of the shape (alpha) and scale (beta) parameters. See https://mathworld.wolfram.com/WeibullDistribution.html for more details (equations 1 and 2). </result>
+                <returns/>
+                <seeAlso>
+                    <see id="binomial"/>
+                    <see id="gamma_rnd"/>
+                    <see id="gauss_rnd"/>
+                    <see id="lognormal_rnd"/>
+                    <see id="poisson"/>
+                    <see id="rnd"/>
+                    <see id="skew_gauss"/>
+                    <see id="truncated_gauss"/>
+                    <see id="weibull_trunc_rnd"/>
+                </seeAlso>
+                <usagesExamples>
+                    <usage>
+                        <examples>
+                            <example code="weibull_rnd(2,3) " equals="0.731" isExecutable="true" isTestOnly="false" test="false" type="float"/>
+                        </examples>
+                    </usage>
+                </usagesExamples>
+            </documentation>
+        </operator>
+        <operator alphabetOrder="dh" id="exp_density" name="exp_density">
+            <operatorCategories>
+                <category id="Random operators"/>
+            </operatorCategories>
+            <concepts>
+                <concept id="random"/>
+            </concepts>
+            <combinaisonIO>
+                <operands class="ummisco/gaml/extensions/maths/random/Random2.java" contentType="-13" returnType="float" type="-13">
+                    <operand name="x" position="0" type="float"/>
+                    <operand name="rate" position="1" type="float"/>
+                </operands>
+            </combinaisonIO>
+            <documentation>
+                <result>returns the probability density function (PDF) at the specified point x of the exponential distribution with the given rate.</result>
+                <returns/>
+                <seeAlso>
+                    <see id="binomial"/>
+                    <see id="gamma_rnd"/>
+                    <see id="gauss_rnd"/>
+                    <see id="lognormal_rnd"/>
+                    <see id="poisson"/>
+                    <see id="rnd"/>
+                    <see id="skew_gauss"/>
+                    <see id="lognormal_density"/>
+                    <see id="gamma_density"/>
+                </seeAlso>
+                <usagesExamples>
+                    <usage>
+                        <examples>
+                            <example code="exp_density(5,3) " equals="0.731" isExecutable="true" isTestOnly="false" test="false" type="float"/>
+                        </examples>
+                    </usage>
+                </usagesExamples>
+            </documentation>
+        </operator>
+        <operator alphabetOrder="im" id="lognormal_rnd" name="lognormal_rnd">
+            <operatorCategories>
+                <category id="Random operators"/>
+            </operatorCategories>
+            <concepts>
+                <concept id="random"/>
+            </concepts>
+            <combinaisonIO>
+                <operands class="ummisco/gaml/extensions/maths/random/Random2.java" contentType="-13" returnType="float" type="-13">
+                    <operand name="shape" position="0" type="float"/>
+                    <operand name="scale" position="1" type="float"/>
+                </operands>
+            </combinaisonIO>
+            <documentation>
+                <result>returns a random value from a Log-Normal distribution with specified values of the shape (alpha) and scale (beta) parameters. See https://en.wikipedia.org/wiki/Log-normal_distribution for more details. </result>
+                <returns/>
+                <seeAlso>
+                    <see id="binomial"/>
+                    <see id="gamma_rnd"/>
+                    <see id="gauss_rnd"/>
+                    <see id="poisson"/>
+                    <see id="rnd"/>
+                    <see id="skew_gauss"/>
+                    <see id="truncated_gauss"/>
+                    <see id="weibull_rnd"/>
+                    <see id="lognormal_trunc_rnd"/>
+                </seeAlso>
+                <usagesExamples>
+                    <usage>
+                        <examples>
+                            <example code="lognormal_rnd(2,3)" equals="0.731" isExecutable="true" isTestOnly="false" test="false" type="float"/>
+                        </examples>
+                    </usage>
+                </usagesExamples>
+            </documentation>
+        </operator>
+        <operator HAS_TESTS="true" alphabetOrder="sz" id="trace" name="trace">
+            <operatorCategories>
+                <category id="Matrix-related operators"/>
+            </operatorCategories>
+            <concepts>
+                <concept id="matrix"/>
+            </concepts>
+            <combinaisonIO>
+                <operands class="ummisco/gaml/extensions/maths/matrix/MatrixOperators.java" contentType="-13" returnType="float" type="-13">
+                    <operand name="m" position="0" type="matrix"/>
+                </operands>
+            </combinaisonIO>
+            <documentation>
+                <result masterDoc="true">The trace of the given matrix (the sum of the elements on the main diagonal).</result>
+                <returns masterDoc="true"/>
+                <usagesExamples>
+                    <usage>
+                        <examples>
+                            <example code="trace(matrix([[1,2],[3,4]]))" equals="5" isExecutable="true" isTestOnly="false" test="true" type="float"/>
+                        </examples>
+                    </usage>
+                </usagesExamples>
+            </documentation>
+        </operator>
+        <operator alphabetOrder="sz" id="weibull_trunc_rnd" name="weibull_trunc_rnd">
+            <operatorCategories>
+                <category id="Random operators"/>
+            </operatorCategories>
+            <concepts>
+                <concept id="random"/>
+            </concepts>
+            <combinaisonIO>
+                <operands class="ummisco/gaml/extensions/maths/random/Random2.java" contentType="-13" returnType="float" type="-13">
+                    <operand name="shape" position="0" type="float"/>
+                    <operand name="scale" position="1" type="float"/>
+                    <operand name="minmax" position="2" type="float"/>
+                    <operand name="isMax" position="3" type="bool"/>
+                </operands>
+                <operands class="ummisco/gaml/extensions/maths/random/Random2.java" contentType="-13" returnType="float" type="-13">
+                    <operand name="shape" position="0" type="float"/>
+                    <operand name="scale" position="1" type="float"/>
+                    <operand name="min" position="2" type="float"/>
+                    <operand name="max" position="3" type="float"/>
+                </operands>
+            </combinaisonIO>
+            <documentation>
+                <result>
+returns a random value from a truncated Weibull distribution (in a range or given only one boundary) with specified values of the shape (alpha) and scale (beta) parameters. See https://mathworld.wolfram.com/WeibullDistribution.html for more details (equations 1 and 2). </result>
+                <returns>
+</returns>
+                <seeAlso>
+                    <see id="weibull_rnd"/>
+                    <see id="gamma_trunc_rnd"/>
+                    <see id="lognormal_trunc_rnd"/>
+                    <see id="truncated_gauss"/>
+                </seeAlso>
+                <usages>
+                    <usage descUsageElt="when 1 float and a boolean (isMax) operands are specified, the float value represents the single boundary (max if the boolean is true, min otherwise),">
+                        <examples>
+                            <example code="weibull_trunc_rnd(2,3,5,true)" isExecutable="true" isTestOnly="false" test="false" type="float"/>
+                        </examples>
+                    </usage>
+                    <usage descUsageElt="when 2 float operands are specified, they are taken as mininimum and maximum values for the result">
+                        <examples>
+                            <example code="weibull_trunc_rnd(2,3,0.0,5.0)" isExecutable="true" isTestOnly="false" test="false" type="float"/>
+                        </examples>
+                    </usage>
+                </usages>
+            </documentation>
+        </operator>
+        <operator alphabetOrder="im" id="lognormal_density" name="lognormal_density">
+            <operatorCategories>
+                <category id="Random operators"/>
+            </operatorCategories>
+            <concepts>
+                <concept id="random"/>
+            </concepts>
+            <combinaisonIO>
+                <operands class="ummisco/gaml/extensions/maths/random/Random2.java" contentType="-13" returnType="float" type="-13">
+                    <operand name="x" position="0" type="float"/>
+                    <operand name="shape" position="1" type="float"/>
+                    <operand name="scale" position="2" type="float"/>
+                </operands>
+            </combinaisonIO>
+            <documentation>
+                <result>lognormal_density(x,shape,scale) returns the probability density function (PDF) at the specified point x of the logNormal distribution with the given shape and scale.</result>
+                <returns/>
+                <seeAlso>
+                    <see id="binomial"/>
+                    <see id="gamma_rnd"/>
+                    <see id="gauss_rnd"/>
+                    <see id="poisson"/>
+                    <see id="rnd"/>
+                    <see id="skew_gauss"/>
+                    <see id="truncated_gauss"/>
+                    <see id="weibull_rnd"/>
+                    <see id="weibull_density"/>
+                    <see id="gamma_density"/>
+                </seeAlso>
+                <usagesExamples>
+                    <usage>
+                        <examples>
+                            <example code="lognormal_density(1,2,3) " equals="0.731" isExecutable="true" isTestOnly="false" test="false" type="float"/>
+                        </examples>
+                    </usage>
+                </usagesExamples>
+            </documentation>
+        </operator>
+        <operator HAS_TESTS="true" alphabetOrder="sz" id="transpose" name="transpose">
+            <operatorCategories>
+                <category id="Matrix-related operators"/>
+            </operatorCategories>
+            <concepts>
+                <concept id="matrix"/>
+            </concepts>
+            <combinaisonIO>
+                <operands class="ummisco/gaml/extensions/maths/matrix/MatrixOperators.java" contentType="-299" returnType="matrix" type="-13">
+                    <operand name="m" position="0" type="matrix"/>
+                </operands>
+            </combinaisonIO>
+            <documentation>
+                <result masterDoc="true">The transposition of the given matrix</result>
+                <returns masterDoc="true"/>
+                <usagesExamples>
+                    <usage>
+                        <examples>
+                            <example code="transpose(matrix([[5,-3],[6,-4]]))" equals="matrix([[5,6],[-3,-4]])" isExecutable="true" isTestOnly="false" test="true" type="matrix"/>
+                        </examples>
+                    </usage>
+                </usagesExamples>
+            </documentation>
+        </operator>
+        <operator alphabetOrder="aa" id="append_horizontally" name="append_horizontally">
+            <operatorCategories>
+                <category id="Matrix-related operators"/>
+            </operatorCategories>
+            <concepts>
+                <concept id="matrix"/>
+            </concepts>
+            <combinaisonIO>
+                <operands class="ummisco/gaml/extensions/maths/matrix/MatrixOperators.java" contentType="-21" returnType="matrix" type="-13">
+                    <operand name="a" position="0" type="matrix"/>
+                    <operand name="b" position="1" type="matrix"/>
+                </operands>
+            </combinaisonIO>
+            <documentation>
+                <result>A matrix resulting from the concatenation of the rows of the two given matrices.</result>
+                <returns/>
+            </documentation>
+        </operator>
+        <operator alphabetOrder="sz" id="weibull_density" name="weibull_density">
+            <operatorCategories>
+                <category id="Random operators"/>
+            </operatorCategories>
+            <concepts>
+                <concept id="random"/>
+            </concepts>
+            <combinaisonIO>
+                <operands class="ummisco/gaml/extensions/maths/random/Random2.java" contentType="-13" returnType="float" type="-13">
+                    <operand name="x" position="0" type="float"/>
+                    <operand name="shape" position="1" type="float"/>
+                    <operand name="scale" position="2" type="float"/>
+                </operands>
+            </combinaisonIO>
+            <documentation>
+                <result>weibull_density(x,shape,scale) returns the probability density function (PDF) at the specified point x of the Weibull distribution with the given shape and scale.</result>
+                <returns/>
+                <seeAlso>
+                    <see id="binomial"/>
+                    <see id="gamma_rnd"/>
+                    <see id="gauss_rnd"/>
+                    <see id="lognormal_rnd"/>
+                    <see id="poisson"/>
+                    <see id="rnd"/>
+                    <see id="skew_gauss"/>
+                    <see id="lognormal_density"/>
+                    <see id="gamma_density"/>
+                </seeAlso>
+                <usagesExamples>
+                    <usage>
+                        <examples>
+                            <example code="weibull_rnd(1,2,3) " equals="0.731" isExecutable="true" isTestOnly="false" test="false" type="float"/>
+                        </examples>
+                    </usage>
+                </usagesExamples>
+            </documentation>
+        </operator>
+        <operator alphabetOrder="dh" id="diff" name="diff">
+            <operatorCategories>
+                <category id="EDP-related operators"/>
+            </operatorCategories>
+            <concepts>
+                <concept id="equation"/>
+                <concept id="math"/>
+            </concepts>
+            <combinaisonIO>
+                <operands class="ummisco/gaml/extensions/maths/ode/statements/SingleEquationStatement.java" contentType="-13" returnType="float" type="-13">
+                    <operand name="var" position="0" type="float"/>
+                    <operand name="time" position="1" type="float"/>
+                </operands>
+            </combinaisonIO>
+            <documentation>
+                <result>A placeholder function for expressing equations</result>
+                <returns/>
+            </documentation>
+        </operator>
+        <operator alphabetOrder="dh" id="exp_rnd" name="exp_rnd">
+            <operatorCategories>
+                <category id="Random operators"/>
+            </operatorCategories>
+            <concepts>
+                <concept id="random"/>
+            </concepts>
+            <combinaisonIO>
+                <operands class="ummisco/gaml/extensions/maths/random/Random2.java" contentType="-13" returnType="float" type="-13">
+                    <operand name="rate" position="0" type="float"/>
+                </operands>
+            </combinaisonIO>
+            <documentation>
+                <result>returns a random value from a exponential distribution with specified values of the rate (lambda) parameters. See https://mathworld.wolfram.com/ExponentialDistribution.html for more details ). </result>
+                <returns/>
+                <seeAlso>
+                    <see id="binomial"/>
+                    <see id="gamma_rnd"/>
+                    <see id="gauss_rnd"/>
+                    <see id="lognormal_rnd"/>
+                    <see id="poisson"/>
+                    <see id="rnd"/>
+                    <see id="skew_gauss"/>
+                    <see id="truncated_gauss"/>
+                    <see id="weibull_trunc_rnd"/>
+                </seeAlso>
+                <usagesExamples>
+                    <usage>
+                        <examples>
+                            <example code="exp_rnd(5) " equals="0.731" isExecutable="true" isTestOnly="false" test="false" type="float"/>
+                        </examples>
+                    </usage>
+                </usagesExamples>
+            </documentation>
+        </operator>
+        <operator alphabetOrder="dh" id="gamma_trunc_rnd" name="gamma_trunc_rnd">
+            <operatorCategories>
+                <category id="Random operators"/>
+            </operatorCategories>
+            <concepts>
+                <concept id="random"/>
+            </concepts>
+            <combinaisonIO>
+                <operands class="ummisco/gaml/extensions/maths/random/Random2.java" contentType="-13" returnType="float" type="-13">
+                    <operand name="shape" position="0" type="float"/>
+                    <operand name="scale" position="1" type="float"/>
+                    <operand name="min" position="2" type="float"/>
+                    <operand name="max" position="3" type="float"/>
+                </operands>
+                <operands class="ummisco/gaml/extensions/maths/random/Random2.java" contentType="-13" returnType="float" type="-13">
+                    <operand name="shape" position="0" type="float"/>
+                    <operand name="scale" position="1" type="float"/>
+                    <operand name="minmax" position="2" type="float"/>
+                    <operand name="isMax" position="3" type="bool"/>
+                </operands>
+            </combinaisonIO>
+            <documentation>
+                <result>returns a random value from a truncated gamma distribution (in a range or given only one boundary) with specified values of the shape and scale parameters.
+</result>
+                <returns>
+</returns>
+                <seeAlso>
+                    <see id="gamma_rnd"/>
+                    <see id="weibull_trunc_rnd"/>
+                    <see id="lognormal_trunc_rnd"/>
+                    <see id="truncated_gauss"/>
+                </seeAlso>
+                <usages>
+                    <usage descUsageElt="when 2 float operands are specified, they are taken as mininimum and maximum values for the result">
+                        <examples>
+                            <example code="gamma_trunc_rnd(2,3,0,5)" isExecutable="true" isTestOnly="false" test="false" type="float"/>
+                        </examples>
+                    </usage>
+                    <usage descUsageElt="when 1 float and a boolean (isMax) operands are specified, the float value represents the single boundary (max if the boolean is true, min otherwise),">
+                        <examples>
+                            <example code="gamma_trunc_rnd(2,3,5,true)" isExecutable="true" isTestOnly="false" test="false" type="float"/>
+                        </examples>
+                    </usage>
+                </usages>
+            </documentation>
+        </operator>
+        <operator alphabetOrder="im" id="internal_integrated_value" name="internal_integrated_value">
+            <operatorCategories>
+                <category id="Containers-related operators"/>
+            </operatorCategories>
+            <concepts>
+                <concept id="equation"/>
+            </concepts>
+            <combinaisonIO>
+                <operands class="ummisco/gaml/extensions/maths/ode/statements/SolveStatement.java" contentType="2" returnType="list" type="-13">
+                    <operand name="agent" position="0" type="any expression"/>
+                    <operand name="var" position="1" type="any expression"/>
+                </operands>
+            </combinaisonIO>
+            <documentation>
+                <result>For internal use only. Corresponds to the implementation, for agents, of the access to containers with [index]</result>
+                <returns/>
+            </documentation>
+        </operator>
+        <operator alphabetOrder="im" id="lognormal_trunc_rnd" name="lognormal_trunc_rnd">
+            <operatorCategories>
+                <category id="Random operators"/>
+            </operatorCategories>
+            <concepts>
+                <concept id="random"/>
+            </concepts>
+            <combinaisonIO>
+                <operands class="ummisco/gaml/extensions/maths/random/Random2.java" contentType="-13" returnType="float" type="-13">
+                    <operand name="shape" position="0" type="float"/>
+                    <operand name="scale" position="1" type="float"/>
+                    <operand name="minmax" position="2" type="float"/>
+                    <operand name="isMax" position="3" type="bool"/>
+                </operands>
+                <operands class="ummisco/gaml/extensions/maths/random/Random2.java" contentType="-13" returnType="float" type="-13">
+                    <operand name="shape" position="0" type="float"/>
+                    <operand name="scale" position="1" type="float"/>
+                    <operand name="min" position="2" type="float"/>
+                    <operand name="max" position="3" type="float"/>
+                </operands>
+            </combinaisonIO>
+            <documentation>
+                <result>
+returns a random value from a truncated Log-Normal distribution (in a range or given only one boundary) with specified values of the shape (alpha) and scale (beta) parameters. See https://en.wikipedia.org/wiki/Log-normal_distribution for more details. </result>
+                <returns>
+</returns>
+                <seeAlso>
+                    <see id="lognormal_rnd"/>
+                    <see id="gamma_trunc_rnd"/>
+                    <see id="weibull_trunc_rnd"/>
+                    <see id="truncated_gauss"/>
+                </seeAlso>
+                <usages>
+                    <usage descUsageElt="when 1 float and a boolean (isMax) operands are specified, the float value represents the single boundary (max if the boolean is true, min otherwise),">
+                        <examples>
+                            <example code="lognormal_trunc_rnd(2,3,5,true)" isExecutable="true" isTestOnly="false" test="false" type="float"/>
+                        </examples>
+                    </usage>
+                    <usage descUsageElt="when 2 float operands are specified, they are taken as mininimum and maximum values for the result">
+                        <examples>
+                            <example code="lognormal_trunc_rnd(2,3,0,5)" isExecutable="true" isTestOnly="false" test="false" type="float"/>
+                        </examples>
+                    </usage>
+                </usages>
+            </documentation>
+        </operator>
+    </operators>
+    <skills/>
+    <architectures/>
+    <speciess/>
+    <insideStatementKinds>
+        <insideStatementKind symbol="Behavior"/>
+        <insideStatementKind symbol="Sequence of statements or action"/>
+        <insideStatementKind symbol="Species"/>
+        <insideStatementKind symbol="Model"/>
+    </insideStatementKinds>
+    <insideStatementSymbols>
+        <insideStatementSymbol symbol="equation"/>
+    </insideStatementSymbols>
+    <statementsKinds>
+        <kind symbol="Single statement"/>
+        <kind symbol="Sequence of statements or action"/>
+    </statementsKinds>
+    <statements>
+        <statement id="solve" kind="Single statement" name="solve">
+            <facets>
+                <facet name="equation" omissible="true" optional="false" type="an identifier">
+                    <documentation>
+                        <result>the equation system identifier to be numerically solved</result>
+                        <returns/>
+                    </documentation>
+                </facet>
+                <facet name="method" omissible="false" optional="true" type="string">
+                    <documentation>
+                        <result>integration method (can be one of "Euler", "ThreeEighthes", "Midpoint", "Gill", "Luther", "rk4" or "dp853", "AdamsBashforth", "AdamsMoulton", "DormandPrince54", "GraggBulirschStoer",  "HighamHall54") (default value: "rk4") or the corresponding constant</result>
+                        <returns/>
+                    </documentation>
+                </facet>
+                <facet name="t0" omissible="false" optional="true" type="float">
+                    <documentation>
+                        <result>the first bound of the integration interval (defaut value: cycle*step, the time at the begining of the current cycle.)</result>
+                        <returns/>
+                    </documentation>
+                </facet>
+                <facet name="tf" omissible="false" optional="true" type="float">
+                    <documentation>
+                        <result>the second bound of the integration interval. Can be smaller than t0 for a backward integration (defaut value: cycle*step, the time at the begining of the current cycle.)</result>
+                        <returns/>
+                    </documentation>
+                </facet>
+                <facet name="step" omissible="false" optional="true" type="float">
+                    <documentation>
+                        <result>(deprecated) integration step, use with fixed step integrator methods (default value: 0.005*step)</result>
+                        <returns/>
+                    </documentation>
+                </facet>
+                <facet name="step_size" omissible="false" optional="true" type="float">
+                    <documentation>
+                        <result>integration step, use with fixed step integrator methods (default value: 0.005*step)</result>
+                        <returns/>
+                    </documentation>
+                </facet>
+                <facet name="min_step" omissible="false" optional="true" type="float">
+                    <documentation>
+                        <result>minimal step, (used with dp853 method only), (sign is irrelevant, regardless of integration direction, forward or backward), the last step can be smaller than this value</result>
+                        <returns/>
+                    </documentation>
+                </facet>
+                <facet name="max_step" omissible="false" optional="true" type="float">
+                    <documentation>
+                        <result>maximal step, (used with dp853 method only), (sign is irrelevant, regardless of integration direction, forward or backward), the last step can be smaller than this value</result>
+                        <returns/>
+                    </documentation>
+                </facet>
+                <facet name="scalAbsoluteTolerance" omissible="false" optional="true" type="float">
+                    <documentation>
+                        <result>allowed absolute error (used with dp853 method only)</result>
+                        <returns/>
+                    </documentation>
+                </facet>
+                <facet name="scalRelativeTolerance" omissible="false" optional="true" type="float">
+                    <documentation>
+                        <result>allowed relative error (used with dp853 method only)</result>
+                        <returns/>
+                    </documentation>
+                </facet>
+                <facet name="nSteps" omissible="false" optional="true" type="float">
+                    <documentation>
+                        <result>Adams-Bashforth and Adams-Moulton methods only. The number of past steps used for computation excluding the one being computed (default value: 2</result>
+                        <returns/>
+                    </documentation>
+                </facet>
+            </facets>
+            <documentation>
+                <result>Solves all equations which matched the given name, with all systems of agents that should solved simultaneously.</result>
+                <returns/>
+                <usagesExamples>
+                    <usage>
+                        <examples>
+                            <example code="solve SIR method: #rk4 step:0.001;" isExecutable="false" isTestOnly="false" test="false"/>
+                        </examples>
+                    </usage>
+                </usagesExamples>
+            </documentation>
+            <inside>
+                <symbols/>
+                <kinds>
+                    <kind>Behavior</kind>
+                    <kind>Sequence of statements or action</kind>
+                </kinds>
+            </inside>
+            <concepts>
+                <concept id="equation"/>
+                <concept id="math"/>
+            </concepts>
+        </statement>
+        <statement id="diffuse" kind="Single statement" name="diffuse">
+            <facets>
+                <facet name="var" omissible="true" optional="false" type="an identifier">
+                    <documentation>
+                        <result>the variable to be diffused. If diffused over a field, then this name will serve to identify the diffusion</result>
+                        <returns/>
+                    </documentation>
+                </facet>
+                <facet name="on" omissible="false" optional="false" type="any type in [species, field, list]">
+                    <documentation>
+                        <result>the list of agents (in general cells of a grid), or a field on which the diffusion will occur</result>
+                        <returns/>
+                    </documentation>
+                </facet>
+                <facet name="matrix" omissible="false" optional="true" type="matrix">
+                    <documentation>
+                        <result>the diffusion matrix ("kernel" or "filter" in image processing). Can have any size, as long as dimensions are odd values.</result>
+                        <returns/>
+                    </documentation>
+                </facet>
+                <facet name="method" omissible="false" optional="true" type="an identifier" values=", takes values in: {convolution, dot_product}">
+                    <documentation>
+                        <result>the diffusion method. One of 'convolution' or 'dot_product'</result>
+                        <returns/>
+                    </documentation>
+                </facet>
+                <facet name="min" omissible="false" optional="true" type="float">
+                    <documentation>
+                        <result>if a value is smaller than this value, it will not be diffused. By default, this value is equal to 0.0. This value cannot be smaller than 0.</result>
+                        <returns/>
+                    </documentation>
+                </facet>
+                <facet name="mask" omissible="false" optional="true" type="matrix">
+                    <documentation>
+                        <result>a matrix that masks the diffusion ( created from an image for instance). The cells corresponding to the values smaller than "-1" in the mask matrix will not diffuse, and the other will diffuse.</result>
+                        <returns/>
+                    </documentation>
+                </facet>
+                <facet name="proportion" omissible="false" optional="true" type="float">
+                    <documentation>
+                        <result>a diffusion rate</result>
+                        <returns/>
+                    </documentation>
+                </facet>
+                <facet name="propagation" omissible="false" optional="true" type="a label" values=", takes values in: {diffusion, gradient}">
+                    <documentation>
+                        <result>represents both the way the signal is propagated and the way to treat multiple propagation of the same signal occurring at once from different places. If propagation equals 'diffusion', the intensity of a signal is shared between its neighbors with respect to 'proportion', 'variation' and the number of neighbors of the environment places (4, 6 or 8). I.e., for a given signal S propagated from place P, the value transmitted to its N neighbors is : S' = (S / N / proportion) - variation. The intensity of S is then diminished by S `*` proportion on P. In a diffusion, the different signals of the same name see their intensities added to each other on each place. If propagation equals 'gradient', the original intensity is not modified, and each neighbors receives the intensity : S / proportion - variation. If multiple propagation occur at once, only the maximum intensity is kept on each place. If 'propagation' is not defined, it is assumed that it is equal to 'diffusion'.</result>
+                        <returns/>
+                    </documentation>
+                </facet>
+                <facet name="radius" omissible="false" optional="true" type="int">
+                    <documentation>
+                        <result>a diffusion radius (in number of cells from the center)</result>
+                        <returns/>
+                    </documentation>
+                </facet>
+                <facet name="variation" omissible="false" optional="true" type="float">
+                    <documentation>
+                        <result>an absolute value to decrease at each neighbors</result>
+                        <returns/>
+                    </documentation>
+                </facet>
+                <facet name="cycle_length" omissible="false" optional="true" type="int">
+                    <documentation>
+                        <result>the number of diffusion operation applied in one simulation step</result>
+                        <returns/>
+                    </documentation>
+                </facet>
+                <facet name="avoid_mask" omissible="false" optional="true" type="boolean">
+                    <documentation>
+                        <result>if true, the value will not be diffused in the masked cells, but will be restitute to the neighboring cells, multiplied by the proportion value (no signal lost). If false, the value will be diffused in the masked cells, but masked cells won't diffuse the value afterward (lost of signal). (default value : false)</result>
+                        <returns/>
+                    </documentation>
+                </facet>
+            </facets>
+            <documentation>
+                <result>This statements allows a value to diffuse among a species on agents (generally on a grid) depending on a given diffusion matrix.</result>
+                <returns/>
+                <usages>
+                    <usage descUsageElt="A basic example of diffusion of the variable phero defined in the species cells, given a diffusion matrix math_diff is:">
+                        <examples>
+                            <example code="matrix&lt;float&gt; math_diff &lt;- matrix([[1/9,1/9,1/9],[1/9,1/9,1/9],[1/9,1/9,1/9]]);" isExecutable="false" isTestOnly="false" test="false"/>
+                            <example code="diffuse var: phero on: cells matrix: math_diff;" isExecutable="false" isTestOnly="false" test="false"/>
+                        </examples>
+                    </usage>
+                    <usage descUsageElt="The diffusion can be masked by obstacles, created from a bitmap image:">
+                        <examples>
+                            <example code="diffuse var: phero on: cells matrix: math_diff mask: mymask;" isExecutable="false" isTestOnly="false" test="false"/>
+                        </examples>
+                    </usage>
+                    <usage descUsageElt="A convenient way to have an uniform diffusion in a given radius is (which is equivalent to the above diffusion):">
+                        <examples>
+                            <example code="diffuse var: phero on: cells proportion: 1/9 radius: 1;" isExecutable="false" isTestOnly="false" test="false"/>
+                        </examples>
+                    </usage>
+                </usages>
+            </documentation>
+            <inside>
+                <symbols/>
+                <kinds>
+                    <kind>Behavior</kind>
+                    <kind>Sequence of statements or action</kind>
+                </kinds>
+            </inside>
+            <concepts>
+                <concept id="math"/>
+                <concept id="diffusion"/>
+            </concepts>
+        </statement>
+        <statement alt_name_of="diffuse" id="diffusion" kind="Single statement" name="diffusion"/>
+        <statement id="=" kind="Single statement" name="=">
+            <facets>
+                <facet name="left" omissible="false" optional="false" type="any type">
+                    <documentation>
+                        <result>the left part of the equation (it should be a variable or a call to the diff() or diff2() operators) </result>
+                        <returns/>
+                    </documentation>
+                </facet>
+                <facet name="right" omissible="true" optional="false" type="float">
+                    <documentation>
+                        <result>the right part of the equation (it is mandatory that it can be evaluated as a float</result>
+                        <returns/>
+                    </documentation>
+                </facet>
+            </facets>
+            <documentation>
+                <result>Allows to implement an equation in the form function(n, t) = expression. The left function is only here as a placeholder for enabling a simpler syntax and grabbing the variable as its left member.</result>
+                <returns/>
+                <seeAlso>
+                    <see id="equation"/>
+                    <see id="solve"/>
+                </seeAlso>
+                <usages>
+                    <usage descUsageElt="The syntax of the = statement is a bit different from the other statements. It has to be used as follows (in an equation):">
+                        <examples>
+                            <example code="float t;" isExecutable="false" isTestOnly="false" test="false"/>
+                            <example code="float S;" isExecutable="false" isTestOnly="false" test="false"/>
+                            <example code="float I;" isExecutable="false" isTestOnly="false" test="false"/>
+                            <example code="equation SI { " isExecutable="false" isTestOnly="false" test="false"/>
+                            <example code="   diff(S,t) = (- 0.3 * S * I / 100);" isExecutable="false" isTestOnly="false" test="false"/>
+                            <example code="   diff(I,t) = (0.3 * S * I / 100);" isExecutable="false" isTestOnly="false" test="false"/>
+                            <example code="} " isExecutable="false" isTestOnly="false" test="false"/>
+                        </examples>
+                    </usage>
+                </usages>
+            </documentation>
+            <inside>
+                <symbols>
+                    <symbol>equation</symbol>
+                </symbols>
+                <kinds/>
+            </inside>
+            <concepts>
+                <concept id="equation"/>
+                <concept id="math"/>
+            </concepts>
+        </statement>
+        <statement id="equation" kind="Sequence of statements or action" name="equation">
+            <facets>
+                <facet name="name" omissible="true" optional="false" type="an identifier">
+                    <documentation>
+                        <result>the equation identifier</result>
+                        <returns/>
+                    </documentation>
+                </facet>
+                <facet name="vars" omissible="false" optional="true" type="list">
+                    <documentation>
+                        <result>the list of variables used in predefined equation systems</result>
+                        <returns/>
+                    </documentation>
+                </facet>
+                <facet name="params" omissible="false" optional="true" type="list">
+                    <documentation>
+                        <result>the list of parameters used in predefined equation systems</result>
+                        <returns/>
+                    </documentation>
+                </facet>
+                <facet name="simultaneously" omissible="false" optional="true" type="list">
+                    <documentation>
+                        <result>a list of species containing a system of equations (all systems will be solved simultaneously)</result>
+                        <returns/>
+                    </documentation>
+                </facet>
+            </facets>
+            <documentation>
+                <result>The equation statement is used to create an equation system from several single equations.</result>
+                <returns/>
+                <seeAlso>
+                    <see id="="/>
+                    <see id="solve"/>
+                </seeAlso>
+                <usagesNoExample>
+                    <usage descUsageElt="If the simultaneously: facet is used, system of all the agents will be solved simultaneously."/>
+                </usagesNoExample>
+                <usages>
+                    <usage descUsageElt="The basic syntax to define an equation system is:">
+                        <examples>
+                            <example code="float t;" isExecutable="false" isTestOnly="false" test="false"/>
+                            <example code="float S;" isExecutable="false" isTestOnly="false" test="false"/>
+                            <example code="float I;" isExecutable="false" isTestOnly="false" test="false"/>
+                            <example code="equation SI { " isExecutable="false" isTestOnly="false" test="false"/>
+                            <example code="   diff(S,t) = (- 0.3 * S * I / 100);" isExecutable="false" isTestOnly="false" test="false"/>
+                            <example code="   diff(I,t) = (0.3 * S * I / 100);" isExecutable="false" isTestOnly="false" test="false"/>
+                            <example code="} " isExecutable="false" isTestOnly="false" test="false"/>
+                        </examples>
+                    </usage>
+                    <usage descUsageElt="If the type: facet is used, a predefined equation system is defined using variables vars: and parameters params: in the right order. All possible predefined equation systems are the following ones (see [EquationPresentation161 EquationPresentation161] for precise definition of each classical equation system): ">
+                        <examples>
+                            <example code="equation eqSI type: SI vars: [S,I,t] params: [N,beta];" isExecutable="false" isTestOnly="false" test="false"/>
+                            <example code="equation eqSIS type: SIS vars: [S,I,t] params: [N,beta,gamma];" isExecutable="false" isTestOnly="false" test="false"/>
+                            <example code="equation eqSIR type:SIR vars:[S,I,R,t] params:[N,beta,gamma];" isExecutable="false" isTestOnly="false" test="false"/>
+                            <example code="equation eqSIRS type: SIRS vars: [S,I,R,t] params: [N,beta,gamma,omega,mu];" isExecutable="false" isTestOnly="false" test="false"/>
+                            <example code="equation eqSEIR type: SEIR vars: [S,E,I,R,t] params: [N,beta,gamma,sigma,mu];" isExecutable="false" isTestOnly="false" test="false"/>
+                            <example code="equation eqLV type: LV vars: [x,y,t] params: [alpha,beta,delta,gamma];" isExecutable="false" isTestOnly="false" test="false"/>
+                        </examples>
+                    </usage>
+                </usages>
+            </documentation>
+            <inside>
+                <symbols/>
+                <kinds>
+                    <kind>Species</kind>
+                    <kind>Model</kind>
+                </kinds>
+            </inside>
+            <concepts>
+                <concept id="equation"/>
+            </concepts>
+        </statement>
+    </statements>
+    <files/>
+    <types/>
+</doc>

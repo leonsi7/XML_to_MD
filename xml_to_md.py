@@ -6,13 +6,66 @@ def xml_to_md(xml_file, md_file):
     root = tree.getroot()
 
     with open(md_file, 'w', encoding='utf-8') as md:
-        for concept in root.find('conceptList').iter('concept'):
-            md.write(f"## {concept.get('id').replace('_', ' ').title()}\n\n")
+        
+        constants_root = root.find('constants')
+        if constants_root is not None:
+            md.write("## Constants\n\n")
+            constants = constants_root.findall('constant')
+            for constant in constants:
+                md.write(f"### {constant.get('name').replace('#', '').title()}\n\n")
+                
+                categories = constant.find('categories').findall('category')
+                for category in categories:
+                    md.write(f"**Category**: {category.get('id').replace('_', ' ').title()}\n")
+                
+                doc_result = constant.find('documentation').find('result')
+                doc_returns = constant.find('documentation').find('returns')
+                
+                if doc_result is not None:
+                    md.write(f"\n**Result**: {doc_result.text}\n")
+                if doc_returns is not None:
+                    md.write(f"\n**Returns**: {doc_returns.text}\n")
+                
+                md.write("\n---\n")
+
+        operators_categories = root.find('operatorsCategories')
+        if operators_categories is not None:
+            md.write("## Operators\n\n")
+            for category in operators_categories.iter('category'):
+                md.write(f"### {category.get('id').replace('_', ' ').title()}\n\n")
+                
+                operators = root.find('operators')
+                if operators is not None:
+                    operators_list = operators.findall('operator')
+                    for operator in operators_list:
+                        md.write(f"#### {operator.get('name')}\n\n")
+                        if operator.find('concepts') is not None:
+                            concepts = operator.find('concepts').findall('concept')
+                            for concept in concepts:
+                                md.write(f"**Concept**: {concept.get('id').replace('_', ' ').title()}\n")
+                        if operator.find('documentation') is not None:
+                            doc_result = operator.find('documentation').find('result')
+                            if doc_result is not None:
+                                md.write(f"\n**Result**: {doc_result.text}\n")
+                        if operator.find('documentation') is not None:
+                            doc_returns = operator.find('documentation').find('returns')
+                            if doc_returns is not None:
+                                md.write(f"\n**Returns**: {doc_returns.text}\n")
+                        
+                        md.write("\n---\n")
+
+        species = root.find('speciess').findall('species')
+        
+        for specie in species:
+            md.write(f"## {specie.get('id').replace('_', ' ').title()}\n\n")
             
-            for action in root.find('speciess').iter('action'):
+            actions = specie.find('actions').findall('action')
+            
+            for action in actions:
                 md.write(f"### {action.get('name')}\n\n")
                 
-                for arg in action.iter('arg'):
+                args = action.find('args').findall('arg')
+                for arg in args:
                     md.write(f"- *{arg.get('name')}* ({arg.get('type')})\n")
                 
                 doc_result = action.find('documentation').find('result')
@@ -25,6 +78,7 @@ def xml_to_md(xml_file, md_file):
                 
                 md.write("\n---\n")
 
+"""
 # Demander à l'utilisateur d'entrer le nom du fichier XML
 xml_input = input("Enter XML file or path: ")
 
@@ -40,7 +94,9 @@ else:
 
 # Construire le nom du fichier de sortie avec l'extension .md
 md_output = os.path.splitext(xml_path)[0] + ".md"
-
+"""
+xml_path = "kDJaymRj.xml"
+md_output = "kDJaymRj.md"
 # Utilisation du script avec le chemin du fichier XML et le nom du fichier de sortie
 xml_to_md(xml_path, md_output)
 print(md_output + " has been successfully created.")
