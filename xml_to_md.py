@@ -38,11 +38,26 @@ def xml_to_md(xml_file, md_file):
                 if operators is not None:
                     operators_list = operators.findall('operator')
                     for operator in operators_list:
+                        continue_parsing = False
+                        if operator.find("operatorCategories") is None:
+                            continue
+                        for opcategories in operator.find("operatorCategories").findall("category"):
+                            print(opcategories.get('id'))
+                            print(" ", category.get("id"))
+                            if opcategories.get('id') == category.get("id") :
+                                continue_parsing = True
+                        if continue_parsing == False:
+                            continue
                         md.write(f"#### {operator.get('name')}\n\n")
                         if operator.find('concepts') is not None:
                             concepts = operator.find('concepts').findall('concept')
                             for concept in concepts:
                                 md.write(f"**Concept**: {concept.get('id').replace('_', ' ').title()}\n")
+                        if operator.find('combinaisonIO') is not None:
+                            operands = operator.find('combinaisonIO').findall('operands')
+                            md.write("\n**Arguments**:\n")
+                            for operand in operands:
+                                md.write(f"- *{operand.find('operand').get('name')}* ({operand.get('type')})\n")
                         if operator.find('documentation') is not None:
                             doc_result = operator.find('documentation').find('result')
                             if doc_result is not None:
@@ -51,8 +66,14 @@ def xml_to_md(xml_file, md_file):
                             doc_returns = operator.find('documentation').find('returns')
                             if doc_returns is not None:
                                 md.write(f"\n**Returns**: {doc_returns.text}\n")
+                        if operator.find('documentation/usagesExamples') is not None:
+                            md.write("\n**Usage Examples**:\n")
+                            examples = operator.find('documentation/usagesExamples/usage/examples').findall('example')
+                            for example in examples:
+                                md.write(f"\n - Code: ```\n{example.get('code')} ```\n \n - Returns:  ```\n{example.get('equals')} ```\n\n")
                         
                         md.write("\n---\n")
+
 
         species = root.find('speciess').findall('species')
         

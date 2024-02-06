@@ -2,7 +2,7 @@
 
 ### Dormandprince54
 
-- *Category*: Math Constants
+**Category**: Math Constants
 
 **Result**: DormandPrince54 solver
 
@@ -11,7 +11,7 @@
 ---
 ### Threeeighthes
 
-- *Category*: Math Constants
+**Category**: Math Constants
 
 **Result**: ThreeEighthes solver
 
@@ -20,7 +20,7 @@
 ---
 ### Luther
 
-- *Category*: Math Constants
+**Category**: Math Constants
 
 **Result**: Luther solver
 
@@ -29,7 +29,7 @@
 ---
 ### Adamsbashforth
 
-- *Category*: Math Constants
+**Category**: Math Constants
 
 **Result**: AdamsBashforth solver
 
@@ -38,7 +38,7 @@
 ---
 ### Euler
 
-- *Category*: Math Constants
+**Category**: Math Constants
 
 **Result**: Euler solver
 
@@ -47,7 +47,7 @@
 ---
 ### Adamsmoulton
 
-- *Category*: Math Constants
+**Category**: Math Constants
 
 **Result**: AdamsMoulton solver
 
@@ -56,7 +56,7 @@
 ---
 ### Graggbulirschstoer
 
-- *Category*: Math Constants
+**Category**: Math Constants
 
 **Result**: GraggBulirschStoer solver
 
@@ -65,7 +65,7 @@
 ---
 ### Rk4
 
-- *Category*: Math Constants
+**Category**: Math Constants
 
 **Result**: rk4 solver
 
@@ -74,7 +74,7 @@
 ---
 ### Dp853
 
-- *Category*: Math Constants
+**Category**: Math Constants
 
 **Result**: dp853 solver
 
@@ -83,7 +83,7 @@
 ---
 ### Gill
 
-- *Category*: Math Constants
+**Category**: Math Constants
 
 **Result**: Gill solver
 
@@ -92,7 +92,7 @@
 ---
 ### Midpoint
 
-- *Category*: Math Constants
+**Category**: Math Constants
 
 **Result**: Midpoint solver
 
@@ -101,7 +101,7 @@
 ---
 ### Highamhall54
 
-- *Category*: Math Constants
+**Category**: Math Constants
 
 **Result**: HighamHall54 solver
 
@@ -112,334 +112,120 @@
 
 ### Iterator Operators
 
-#### gamma_density
-
-**Concept**: Random
-
-**Result**: gamma_density(x,shape,scale) returns the probability density function (PDF) at the specified point x of the Gamma distribution with the given shape and scale.
-
-**Returns**: None
-
----
-#### diff2
-
-**Concept**: Equation
-**Concept**: Math
-
-**Result**: A placeholder function for expressing equations
-
-**Returns**: None
-
----
-#### gamma_rnd
-
-**Concept**: Random
-
-**Result**: returns a random value from a gamma distribution with specified values of the shape and scale parameters
-
-**Returns**: None
-
----
-#### .
-
-**Concept**: Matrix
-
-**Result**: None
-
-**Returns**: None
-
----
-#### eigenvalues
-
-**Concept**: Matrix
-
-**Result**: The list of the eigen values of the given matrix
-
-**Returns**: None
-
----
-#### det
-
-
----
-#### determinant
-
-**Concept**: Matrix
-
-**Result**: The determinant of the given matrix
-
-**Returns**: None
-
----
-#### inverse
-
-**Concept**: Matrix
-
-**Result**: The inverse matrix of the given matrix. If no inverse exists, returns a matrix that has properties that resemble that of an inverse.
-
-**Returns**: None
-
----
-#### append_vertically
-
-**Concept**: Matrix
-
-**Result**: A matrix resulting from the concatenation of the columns  of the two given matrices. 
-
-**Returns**: None
-
----
-#### weibull_rnd
-
-**Concept**: Random
-
-**Result**: returns a random value from a Weibull distribution with specified values of the shape (alpha) and scale (beta) parameters. See https://mathworld.wolfram.com/WeibullDistribution.html for more details (equations 1 and 2). 
-
-**Returns**: None
-
----
-#### exp_density
-
-**Concept**: Random
-
-**Result**: returns the probability density function (PDF) at the specified point x of the exponential distribution with the given rate.
-
-**Returns**: None
-
----
-#### lognormal_rnd
-
-**Concept**: Random
-
-**Result**: returns a random value from a Log-Normal distribution with specified values of the shape (alpha) and scale (beta) parameters. See https://en.wikipedia.org/wiki/Log-normal_distribution for more details. 
-
-**Returns**: None
-
----
-#### trace
-
-**Concept**: Matrix
-
-**Result**: The trace of the given matrix (the sum of the elements on the main diagonal).
-
-**Returns**: None
-
----
-#### weibull_trunc_rnd
-
-**Concept**: Random
-
-**Result**: 
-returns a random value from a truncated Weibull distribution (in a range or given only one boundary) with specified values of the shape (alpha) and scale (beta) parameters. See https://mathworld.wolfram.com/WeibullDistribution.html for more details (equations 1 and 2). 
-
-**Returns**: 
-
-
----
-#### lognormal_density
-
-**Concept**: Random
-
-**Result**: lognormal_density(x,shape,scale) returns the probability density function (PDF) at the specified point x of the logNormal distribution with the given shape and scale.
-
-**Returns**: None
-
----
-#### transpose
-
-**Concept**: Matrix
-
-**Result**: The transposition of the given matrix
-
-**Returns**: None
-
----
-#### append_horizontally
-
-**Concept**: Matrix
-
-**Result**: A matrix resulting from the concatenation of the rows of the two given matrices.
-
-**Returns**: None
-
----
-#### weibull_density
-
-**Concept**: Random
-
-**Result**: weibull_density(x,shape,scale) returns the probability density function (PDF) at the specified point x of the Weibull distribution with the given shape and scale.
-
-**Returns**: None
-
----
-#### diff
-
-**Concept**: Equation
-**Concept**: Math
-
-**Result**: A placeholder function for expressing equations
-
-**Returns**: None
-
----
-#### exp_rnd
-
-**Concept**: Random
-
-**Result**: returns a random value from a exponential distribution with specified values of the rate (lambda) parameters. See https://mathworld.wolfram.com/ExponentialDistribution.html for more details ). 
-
-**Returns**: None
-
----
-#### gamma_trunc_rnd
-
-**Concept**: Random
-
-**Result**: returns a random value from a truncated gamma distribution (in a range or given only one boundary) with specified values of the shape and scale parameters.
-
-
-**Returns**: 
-
-
----
-#### internal_integrated_value
-
-**Concept**: Equation
-
-**Result**: For internal use only. Corresponds to the implementation, for agents, of the access to containers with [index]
-
-**Returns**: None
-
----
-#### lognormal_trunc_rnd
-
-**Concept**: Random
-
-**Result**: 
-returns a random value from a truncated Log-Normal distribution (in a range or given only one boundary) with specified values of the shape (alpha) and scale (beta) parameters. See https://en.wikipedia.org/wiki/Log-normal_distribution for more details. 
-
-**Returns**: 
-
-
----
 ### Random Operators
 
 #### gamma_density
 
 **Concept**: Random
 
+**Arguments**:
+- *x* (-13)
+
 **Result**: gamma_density(x,shape,scale) returns the probability density function (PDF) at the specified point x of the Gamma distribution with the given shape and scale.
 
 **Returns**: None
 
----
-#### diff2
+**Usage Examples**:
 
-**Concept**: Equation
-**Concept**: Math
+ - Code: ```
+gamma_density(1,9,0.5) ```
+ 
+ - Returns:  ```
+0.731 ```
 
-**Result**: A placeholder function for expressing equations
-
-**Returns**: None
 
 ---
 #### gamma_rnd
 
 **Concept**: Random
 
+**Arguments**:
+- *shape* (-13)
+
 **Result**: returns a random value from a gamma distribution with specified values of the shape and scale parameters
 
 **Returns**: None
 
----
-#### .
+**Usage Examples**:
 
-**Concept**: Matrix
+ - Code: ```
+gamma_rnd(9,0.5) ```
+ 
+ - Returns:  ```
+0.731 ```
 
-**Result**: None
-
-**Returns**: None
-
----
-#### eigenvalues
-
-**Concept**: Matrix
-
-**Result**: The list of the eigen values of the given matrix
-
-**Returns**: None
-
----
-#### det
-
-
----
-#### determinant
-
-**Concept**: Matrix
-
-**Result**: The determinant of the given matrix
-
-**Returns**: None
-
----
-#### inverse
-
-**Concept**: Matrix
-
-**Result**: The inverse matrix of the given matrix. If no inverse exists, returns a matrix that has properties that resemble that of an inverse.
-
-**Returns**: None
-
----
-#### append_vertically
-
-**Concept**: Matrix
-
-**Result**: A matrix resulting from the concatenation of the columns  of the two given matrices. 
-
-**Returns**: None
 
 ---
 #### weibull_rnd
 
 **Concept**: Random
 
+**Arguments**:
+- *shape* (-13)
+
 **Result**: returns a random value from a Weibull distribution with specified values of the shape (alpha) and scale (beta) parameters. See https://mathworld.wolfram.com/WeibullDistribution.html for more details (equations 1 and 2). 
 
 **Returns**: None
+
+**Usage Examples**:
+
+ - Code: ```
+weibull_rnd(2,3)  ```
+ 
+ - Returns:  ```
+0.731 ```
+
 
 ---
 #### exp_density
 
 **Concept**: Random
 
+**Arguments**:
+- *x* (-13)
+
 **Result**: returns the probability density function (PDF) at the specified point x of the exponential distribution with the given rate.
 
 **Returns**: None
+
+**Usage Examples**:
+
+ - Code: ```
+exp_density(5,3)  ```
+ 
+ - Returns:  ```
+0.731 ```
+
 
 ---
 #### lognormal_rnd
 
 **Concept**: Random
 
+**Arguments**:
+- *shape* (-13)
+
 **Result**: returns a random value from a Log-Normal distribution with specified values of the shape (alpha) and scale (beta) parameters. See https://en.wikipedia.org/wiki/Log-normal_distribution for more details. 
 
 **Returns**: None
 
----
-#### trace
+**Usage Examples**:
 
-**Concept**: Matrix
+ - Code: ```
+lognormal_rnd(2,3) ```
+ 
+ - Returns:  ```
+0.731 ```
 
-**Result**: The trace of the given matrix (the sum of the elements on the main diagonal).
-
-**Returns**: None
 
 ---
 #### weibull_trunc_rnd
 
 **Concept**: Random
+
+**Arguments**:
+- *shape* (-13)
+- *shape* (-13)
 
 **Result**: 
 returns a random value from a truncated Weibull distribution (in a range or given only one boundary) with specified values of the shape (alpha) and scale (beta) parameters. See https://mathworld.wolfram.com/WeibullDistribution.html for more details (equations 1 and 2). 
@@ -452,60 +238,72 @@ returns a random value from a truncated Weibull distribution (in a range or give
 
 **Concept**: Random
 
+**Arguments**:
+- *x* (-13)
+
 **Result**: lognormal_density(x,shape,scale) returns the probability density function (PDF) at the specified point x of the logNormal distribution with the given shape and scale.
 
 **Returns**: None
 
----
-#### transpose
+**Usage Examples**:
 
-**Concept**: Matrix
+ - Code: ```
+lognormal_density(1,2,3)  ```
+ 
+ - Returns:  ```
+0.731 ```
 
-**Result**: The transposition of the given matrix
-
-**Returns**: None
-
----
-#### append_horizontally
-
-**Concept**: Matrix
-
-**Result**: A matrix resulting from the concatenation of the rows of the two given matrices.
-
-**Returns**: None
 
 ---
 #### weibull_density
 
 **Concept**: Random
 
+**Arguments**:
+- *x* (-13)
+
 **Result**: weibull_density(x,shape,scale) returns the probability density function (PDF) at the specified point x of the Weibull distribution with the given shape and scale.
 
 **Returns**: None
 
----
-#### diff
+**Usage Examples**:
 
-**Concept**: Equation
-**Concept**: Math
+ - Code: ```
+weibull_rnd(1,2,3)  ```
+ 
+ - Returns:  ```
+0.731 ```
 
-**Result**: A placeholder function for expressing equations
-
-**Returns**: None
 
 ---
 #### exp_rnd
 
 **Concept**: Random
 
+**Arguments**:
+- *rate* (-13)
+
 **Result**: returns a random value from a exponential distribution with specified values of the rate (lambda) parameters. See https://mathworld.wolfram.com/ExponentialDistribution.html for more details ). 
 
 **Returns**: None
+
+**Usage Examples**:
+
+ - Code: ```
+exp_rnd(5)  ```
+ 
+ - Returns:  ```
+0.731 ```
+
 
 ---
 #### gamma_trunc_rnd
 
 **Concept**: Random
+
+**Arguments**:
+- *shape* (-13)
+- *shape* (-13)
 
 **Result**: returns a random value from a truncated gamma distribution (in a range or given only one boundary) with specified values of the shape and scale parameters.
 
@@ -514,18 +312,13 @@ returns a random value from a truncated Weibull distribution (in a range or give
 
 
 ---
-#### internal_integrated_value
-
-**Concept**: Equation
-
-**Result**: For internal use only. Corresponds to the implementation, for agents, of the access to containers with [index]
-
-**Returns**: None
-
----
 #### lognormal_trunc_rnd
 
 **Concept**: Random
+
+**Arguments**:
+- *shape* (-13)
+- *shape* (-13)
 
 **Result**: 
 returns a random value from a truncated Log-Normal distribution (in a range or given only one boundary) with specified values of the shape (alpha) and scale (beta) parameters. See https://en.wikipedia.org/wiki/Log-normal_distribution for more details. 
@@ -536,162 +329,15 @@ returns a random value from a truncated Log-Normal distribution (in a range or g
 ---
 ### Edp-Related Operators
 
-#### gamma_density
-
-**Concept**: Random
-
-**Result**: gamma_density(x,shape,scale) returns the probability density function (PDF) at the specified point x of the Gamma distribution with the given shape and scale.
-
-**Returns**: None
-
----
 #### diff2
 
 **Concept**: Equation
 **Concept**: Math
 
+**Arguments**:
+- *var* (-13)
+
 **Result**: A placeholder function for expressing equations
-
-**Returns**: None
-
----
-#### gamma_rnd
-
-**Concept**: Random
-
-**Result**: returns a random value from a gamma distribution with specified values of the shape and scale parameters
-
-**Returns**: None
-
----
-#### .
-
-**Concept**: Matrix
-
-**Result**: None
-
-**Returns**: None
-
----
-#### eigenvalues
-
-**Concept**: Matrix
-
-**Result**: The list of the eigen values of the given matrix
-
-**Returns**: None
-
----
-#### det
-
-
----
-#### determinant
-
-**Concept**: Matrix
-
-**Result**: The determinant of the given matrix
-
-**Returns**: None
-
----
-#### inverse
-
-**Concept**: Matrix
-
-**Result**: The inverse matrix of the given matrix. If no inverse exists, returns a matrix that has properties that resemble that of an inverse.
-
-**Returns**: None
-
----
-#### append_vertically
-
-**Concept**: Matrix
-
-**Result**: A matrix resulting from the concatenation of the columns  of the two given matrices. 
-
-**Returns**: None
-
----
-#### weibull_rnd
-
-**Concept**: Random
-
-**Result**: returns a random value from a Weibull distribution with specified values of the shape (alpha) and scale (beta) parameters. See https://mathworld.wolfram.com/WeibullDistribution.html for more details (equations 1 and 2). 
-
-**Returns**: None
-
----
-#### exp_density
-
-**Concept**: Random
-
-**Result**: returns the probability density function (PDF) at the specified point x of the exponential distribution with the given rate.
-
-**Returns**: None
-
----
-#### lognormal_rnd
-
-**Concept**: Random
-
-**Result**: returns a random value from a Log-Normal distribution with specified values of the shape (alpha) and scale (beta) parameters. See https://en.wikipedia.org/wiki/Log-normal_distribution for more details. 
-
-**Returns**: None
-
----
-#### trace
-
-**Concept**: Matrix
-
-**Result**: The trace of the given matrix (the sum of the elements on the main diagonal).
-
-**Returns**: None
-
----
-#### weibull_trunc_rnd
-
-**Concept**: Random
-
-**Result**: 
-returns a random value from a truncated Weibull distribution (in a range or given only one boundary) with specified values of the shape (alpha) and scale (beta) parameters. See https://mathworld.wolfram.com/WeibullDistribution.html for more details (equations 1 and 2). 
-
-**Returns**: 
-
-
----
-#### lognormal_density
-
-**Concept**: Random
-
-**Result**: lognormal_density(x,shape,scale) returns the probability density function (PDF) at the specified point x of the logNormal distribution with the given shape and scale.
-
-**Returns**: None
-
----
-#### transpose
-
-**Concept**: Matrix
-
-**Result**: The transposition of the given matrix
-
-**Returns**: None
-
----
-#### append_horizontally
-
-**Concept**: Matrix
-
-**Result**: A matrix resulting from the concatenation of the rows of the two given matrices.
-
-**Returns**: None
-
----
-#### weibull_density
-
-**Concept**: Random
-
-**Result**: weibull_density(x,shape,scale) returns the probability density function (PDF) at the specified point x of the Weibull distribution with the given shape and scale.
 
 **Returns**: None
 
@@ -701,84 +347,22 @@ returns a random value from a truncated Weibull distribution (in a range or give
 **Concept**: Equation
 **Concept**: Math
 
+**Arguments**:
+- *var* (-13)
+
 **Result**: A placeholder function for expressing equations
 
 **Returns**: None
-
----
-#### exp_rnd
-
-**Concept**: Random
-
-**Result**: returns a random value from a exponential distribution with specified values of the rate (lambda) parameters. See https://mathworld.wolfram.com/ExponentialDistribution.html for more details ). 
-
-**Returns**: None
-
----
-#### gamma_trunc_rnd
-
-**Concept**: Random
-
-**Result**: returns a random value from a truncated gamma distribution (in a range or given only one boundary) with specified values of the shape and scale parameters.
-
-
-**Returns**: 
-
-
----
-#### internal_integrated_value
-
-**Concept**: Equation
-
-**Result**: For internal use only. Corresponds to the implementation, for agents, of the access to containers with [index]
-
-**Returns**: None
-
----
-#### lognormal_trunc_rnd
-
-**Concept**: Random
-
-**Result**: 
-returns a random value from a truncated Log-Normal distribution (in a range or given only one boundary) with specified values of the shape (alpha) and scale (beta) parameters. See https://en.wikipedia.org/wiki/Log-normal_distribution for more details. 
-
-**Returns**: 
-
 
 ---
 ### Matrix-Related Operators
 
-#### gamma_density
-
-**Concept**: Random
-
-**Result**: gamma_density(x,shape,scale) returns the probability density function (PDF) at the specified point x of the Gamma distribution with the given shape and scale.
-
-**Returns**: None
-
----
-#### diff2
-
-**Concept**: Equation
-**Concept**: Math
-
-**Result**: A placeholder function for expressing equations
-
-**Returns**: None
-
----
-#### gamma_rnd
-
-**Concept**: Random
-
-**Result**: returns a random value from a gamma distribution with specified values of the shape and scale parameters
-
-**Returns**: None
-
----
 #### .
 
 **Concept**: Matrix
+
+**Arguments**:
+- *a* (-13)
 
 **Result**: None
 
@@ -789,12 +373,20 @@ returns a random value from a truncated Log-Normal distribution (in a range or g
 
 **Concept**: Matrix
 
+**Arguments**:
+- *m* (-13)
+
 **Result**: The list of the eigen values of the given matrix
 
 **Returns**: None
 
----
-#### det
+**Usage Examples**:
+
+ - Code: ```
+eigenvalues(matrix([[5,-3],[6,-4]])) ```
+ 
+ - Returns:  ```
+[2.0000000000000004,-0.9999999999999998] ```
 
 
 ---
@@ -802,371 +394,130 @@ returns a random value from a truncated Log-Normal distribution (in a range or g
 
 **Concept**: Matrix
 
+**Arguments**:
+- *m* (-13)
+
 **Result**: The determinant of the given matrix
 
 **Returns**: None
+
+**Usage Examples**:
+
+ - Code: ```
+determinant(matrix([[1,2],[3,4]])) ```
+ 
+ - Returns:  ```
+-2 ```
+
 
 ---
 #### inverse
 
 **Concept**: Matrix
 
+**Arguments**:
+- *m* (-13)
+
 **Result**: The inverse matrix of the given matrix. If no inverse exists, returns a matrix that has properties that resemble that of an inverse.
 
 **Returns**: None
+
+**Usage Examples**:
+
+ - Code: ```
+inverse(matrix([[4,3],[3,2]])) ```
+ 
+ - Returns:  ```
+matrix([[-2.0,3.0],[3.0,-4.0]]) ```
+
 
 ---
 #### append_vertically
 
 **Concept**: Matrix
 
+**Arguments**:
+- *a* (-13)
+
 **Result**: A matrix resulting from the concatenation of the columns  of the two given matrices. 
 
 **Returns**: None
 
----
-#### weibull_rnd
+**Usage Examples**:
 
-**Concept**: Random
+ - Code: ```
+matrix([[1,2],[3,4]]) append_vertically matrix([[1,2],[3,4]]) ```
+ 
+ - Returns:  ```
+matrix([[1,2,1,2],[3,4,3,4]]) ```
 
-**Result**: returns a random value from a Weibull distribution with specified values of the shape (alpha) and scale (beta) parameters. See https://mathworld.wolfram.com/WeibullDistribution.html for more details (equations 1 and 2). 
-
-**Returns**: None
-
----
-#### exp_density
-
-**Concept**: Random
-
-**Result**: returns the probability density function (PDF) at the specified point x of the exponential distribution with the given rate.
-
-**Returns**: None
-
----
-#### lognormal_rnd
-
-**Concept**: Random
-
-**Result**: returns a random value from a Log-Normal distribution with specified values of the shape (alpha) and scale (beta) parameters. See https://en.wikipedia.org/wiki/Log-normal_distribution for more details. 
-
-**Returns**: None
 
 ---
 #### trace
 
 **Concept**: Matrix
 
+**Arguments**:
+- *m* (-13)
+
 **Result**: The trace of the given matrix (the sum of the elements on the main diagonal).
 
 **Returns**: None
 
----
-#### weibull_trunc_rnd
+**Usage Examples**:
 
-**Concept**: Random
+ - Code: ```
+trace(matrix([[1,2],[3,4]])) ```
+ 
+ - Returns:  ```
+5 ```
 
-**Result**: 
-returns a random value from a truncated Weibull distribution (in a range or given only one boundary) with specified values of the shape (alpha) and scale (beta) parameters. See https://mathworld.wolfram.com/WeibullDistribution.html for more details (equations 1 and 2). 
-
-**Returns**: 
-
-
----
-#### lognormal_density
-
-**Concept**: Random
-
-**Result**: lognormal_density(x,shape,scale) returns the probability density function (PDF) at the specified point x of the logNormal distribution with the given shape and scale.
-
-**Returns**: None
 
 ---
 #### transpose
 
 **Concept**: Matrix
 
+**Arguments**:
+- *m* (-13)
+
 **Result**: The transposition of the given matrix
 
 **Returns**: None
+
+**Usage Examples**:
+
+ - Code: ```
+transpose(matrix([[5,-3],[6,-4]])) ```
+ 
+ - Returns:  ```
+matrix([[5,6],[-3,-4]]) ```
+
 
 ---
 #### append_horizontally
 
 **Concept**: Matrix
 
+**Arguments**:
+- *a* (-13)
+
 **Result**: A matrix resulting from the concatenation of the rows of the two given matrices.
 
 **Returns**: None
-
----
-#### weibull_density
-
-**Concept**: Random
-
-**Result**: weibull_density(x,shape,scale) returns the probability density function (PDF) at the specified point x of the Weibull distribution with the given shape and scale.
-
-**Returns**: None
-
----
-#### diff
-
-**Concept**: Equation
-**Concept**: Math
-
-**Result**: A placeholder function for expressing equations
-
-**Returns**: None
-
----
-#### exp_rnd
-
-**Concept**: Random
-
-**Result**: returns a random value from a exponential distribution with specified values of the rate (lambda) parameters. See https://mathworld.wolfram.com/ExponentialDistribution.html for more details ). 
-
-**Returns**: None
-
----
-#### gamma_trunc_rnd
-
-**Concept**: Random
-
-**Result**: returns a random value from a truncated gamma distribution (in a range or given only one boundary) with specified values of the shape and scale parameters.
-
-
-**Returns**: 
-
-
----
-#### internal_integrated_value
-
-**Concept**: Equation
-
-**Result**: For internal use only. Corresponds to the implementation, for agents, of the access to containers with [index]
-
-**Returns**: None
-
----
-#### lognormal_trunc_rnd
-
-**Concept**: Random
-
-**Result**: 
-returns a random value from a truncated Log-Normal distribution (in a range or given only one boundary) with specified values of the shape (alpha) and scale (beta) parameters. See https://en.wikipedia.org/wiki/Log-normal_distribution for more details. 
-
-**Returns**: 
-
 
 ---
 ### Containers-Related Operators
 
-#### gamma_density
-
-**Concept**: Random
-
-**Result**: gamma_density(x,shape,scale) returns the probability density function (PDF) at the specified point x of the Gamma distribution with the given shape and scale.
-
-**Returns**: None
-
----
-#### diff2
-
-**Concept**: Equation
-**Concept**: Math
-
-**Result**: A placeholder function for expressing equations
-
-**Returns**: None
-
----
-#### gamma_rnd
-
-**Concept**: Random
-
-**Result**: returns a random value from a gamma distribution with specified values of the shape and scale parameters
-
-**Returns**: None
-
----
-#### .
-
-**Concept**: Matrix
-
-**Result**: None
-
-**Returns**: None
-
----
-#### eigenvalues
-
-**Concept**: Matrix
-
-**Result**: The list of the eigen values of the given matrix
-
-**Returns**: None
-
----
-#### det
-
-
----
-#### determinant
-
-**Concept**: Matrix
-
-**Result**: The determinant of the given matrix
-
-**Returns**: None
-
----
-#### inverse
-
-**Concept**: Matrix
-
-**Result**: The inverse matrix of the given matrix. If no inverse exists, returns a matrix that has properties that resemble that of an inverse.
-
-**Returns**: None
-
----
-#### append_vertically
-
-**Concept**: Matrix
-
-**Result**: A matrix resulting from the concatenation of the columns  of the two given matrices. 
-
-**Returns**: None
-
----
-#### weibull_rnd
-
-**Concept**: Random
-
-**Result**: returns a random value from a Weibull distribution with specified values of the shape (alpha) and scale (beta) parameters. See https://mathworld.wolfram.com/WeibullDistribution.html for more details (equations 1 and 2). 
-
-**Returns**: None
-
----
-#### exp_density
-
-**Concept**: Random
-
-**Result**: returns the probability density function (PDF) at the specified point x of the exponential distribution with the given rate.
-
-**Returns**: None
-
----
-#### lognormal_rnd
-
-**Concept**: Random
-
-**Result**: returns a random value from a Log-Normal distribution with specified values of the shape (alpha) and scale (beta) parameters. See https://en.wikipedia.org/wiki/Log-normal_distribution for more details. 
-
-**Returns**: None
-
----
-#### trace
-
-**Concept**: Matrix
-
-**Result**: The trace of the given matrix (the sum of the elements on the main diagonal).
-
-**Returns**: None
-
----
-#### weibull_trunc_rnd
-
-**Concept**: Random
-
-**Result**: 
-returns a random value from a truncated Weibull distribution (in a range or given only one boundary) with specified values of the shape (alpha) and scale (beta) parameters. See https://mathworld.wolfram.com/WeibullDistribution.html for more details (equations 1 and 2). 
-
-**Returns**: 
-
-
----
-#### lognormal_density
-
-**Concept**: Random
-
-**Result**: lognormal_density(x,shape,scale) returns the probability density function (PDF) at the specified point x of the logNormal distribution with the given shape and scale.
-
-**Returns**: None
-
----
-#### transpose
-
-**Concept**: Matrix
-
-**Result**: The transposition of the given matrix
-
-**Returns**: None
-
----
-#### append_horizontally
-
-**Concept**: Matrix
-
-**Result**: A matrix resulting from the concatenation of the rows of the two given matrices.
-
-**Returns**: None
-
----
-#### weibull_density
-
-**Concept**: Random
-
-**Result**: weibull_density(x,shape,scale) returns the probability density function (PDF) at the specified point x of the Weibull distribution with the given shape and scale.
-
-**Returns**: None
-
----
-#### diff
-
-**Concept**: Equation
-**Concept**: Math
-
-**Result**: A placeholder function for expressing equations
-
-**Returns**: None
-
----
-#### exp_rnd
-
-**Concept**: Random
-
-**Result**: returns a random value from a exponential distribution with specified values of the rate (lambda) parameters. See https://mathworld.wolfram.com/ExponentialDistribution.html for more details ). 
-
-**Returns**: None
-
----
-#### gamma_trunc_rnd
-
-**Concept**: Random
-
-**Result**: returns a random value from a truncated gamma distribution (in a range or given only one boundary) with specified values of the shape and scale parameters.
-
-
-**Returns**: 
-
-
----
 #### internal_integrated_value
 
 **Concept**: Equation
 
+**Arguments**:
+- *agent* (-13)
+
 **Result**: For internal use only. Corresponds to the implementation, for agents, of the access to containers with [index]
 
 **Returns**: None
-
----
-#### lognormal_trunc_rnd
-
-**Concept**: Random
-
-**Result**: 
-returns a random value from a truncated Log-Normal distribution (in a range or given only one boundary) with specified values of the shape (alpha) and scale (beta) parameters. See https://en.wikipedia.org/wiki/Log-normal_distribution for more details. 
-
-**Returns**: 
-
 
 ---
