@@ -82,8 +82,10 @@ def xml_to_md(xml_file, md_file):
                                 md.write(f"\n - Code: ```\n{example.get('code')} ```\n \n - Returns:  ```\n{example.get('equals')} ```\n\n")
                         md.write("\n---\n")
 
-        # ABOUT SPECIES #
-        species = root.find('speciess').findall('species')
+        # ABOUT SPECIES 
+        species = []
+        if root.find('speciess') is not None:
+            species = root.find('speciess').findall('species')
         if len(species) > 0:
             md.write("## Species\n\n")
         for specie in species:
@@ -92,6 +94,7 @@ def xml_to_md(xml_file, md_file):
             for action in actions:
                 md.write(f"#### {action.get('name')}\n\n")
                 args = action.find('args').findall('arg')
+                md.write("\n**Args**:\n")
                 for arg in args:
                     md.write(f"- *{arg.get('name')}* ({arg.get('type')})\n")
                 doc_result = action.find('documentation').find('result')
@@ -101,6 +104,65 @@ def xml_to_md(xml_file, md_file):
                 if doc_returns is not None:
                     md.write(f"\n**Returns**: {doc_returns.text}\n")
                 md.write("\n---\n")
+
+        # ABOUT STATEMENTS
+        statements = root.find('statements')
+        if statements is not None:
+            statements = statements.findall('statement')
+            if len(statements) > 0:
+                md.write("## Equation Statements\n\n")
+                for statement in statements:
+                    if statement.find('concepts') is None:
+                        continue
+                
+                    facets = statement.find('facets')
+                    documentation = statement.find('documentation')
+                    usages = documentation.findall('usages/usage')
+                    examples = []
+
+                    for usage in usages:
+                        desc = usage.get('descUsageElt')
+                        exs = usage.findall('examples/example')
+                        ex_texts = [f"{ex.get('code')}" for ex in exs]
+                        examples.append((desc, ex_texts))
+
+                    equation_info = {
+                        "id": statement.get('id'),
+                        "name": statement.get('name'),
+                        "documentation": documentation.find('result').text,
+                        "usages": [usage.get('descUsageElt') for usage in documentation.findall('usages/usage')],
+                        "examples": examples,
+                        "facets": {}
+                    }
+
+                    if documentation.find('seeAlso') is not None:
+                        equation_info['see_also'] = [see.get('id') for see in documentation.find('seeAlso').findall('see')]
+                    else :
+                        equation_info['see_also'] = []
+
+                    
+                    for facet in facets.findall('facet'):
+                        facet_name = facet.get('name')
+                        facet_doc = facet.find('documentation').find('result').text
+                        equation_info["facets"][facet_name] = facet_doc
+                    
+                    md.write(f"### {equation_info['name']}\n\n")
+                    md.write(f"**Documentation**: {equation_info['documentation']}\n\n")
+                    md.write(f"**See Also**: {' '.join(equation_info['see_also'])}\n\n")
+                    md.write("**Facets:**\n\n")
+                    for facet, doc in equation_info['facets'].items():
+                        md.write(f"- **{facet}**: {doc}\n")
+                    
+                    md.write("\n **Examples:**\n\n")
+                    for desc, ex_texts in equation_info['examples']:
+                        md.write(f"- {desc}\n\n")
+                        md.write("    ```\n")
+                        for ex_text in ex_texts:
+                            
+                            md.write(f"    {ex_text}\n")
+                        md.write("    ```\n\n")  
+                    
+                    md.write("\n---\n")
 
 print(bcolors.HEADER + "Welcome to XML to MD program !" + bcolors.ENDC)
 # Get the file name
@@ -118,9 +180,9 @@ else:
 md_output = os.path.splitext(xml_path)[0] + ".md"
 
 # XML to MD
-try:
-    xml_to_md(xml_path, md_output)
-    print(bcolors.OKGREEN + "--> " + md_output + " has been successfully created." + bcolors.ENDC)
-except:
-    print(bcolors.FAIL + "!!> An error occurred when parsing XML file"+bcolors.ENDC)
+#try:
+xml_to_md(xml_path, md_output)
+print(bcolors.OKGREEN + "--> " + md_output + " has been successfully created." + bcolors.ENDC)
+#except:
+#print(bcolors.FAIL + "!!> An error occurred when parsing XML file"+bcolors.ENDC)
 
